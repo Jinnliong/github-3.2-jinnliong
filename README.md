@@ -33,89 +33,144 @@ Here are 15 essential GitHub commands along with their usage:
 1. git clone:
 
 Usage: Clones a remote repository to your local machine.
-Example: git clone https://github.com/user/repo.git
+Example: 
+
+```sh
+git clone https://github.com/user/repo.git
+```
 
 2. git init:
 
 Usage: Creates a new Git repository in the current directory.
-Example: git init
+Example: 
+
+```sh
+git init
+```
 
 3. git status:
 
 Usage: Shows the status of changes in the working directory and staging area.
-Example: git status
+Example: 
+
+```sh
+git status
+```
 
 4. git add:
 
 Usage: Adds files or changes to the staging area for committing.
-Example: git add file1.txt file2.txt
+Example: 
+
+```sh
+git add file1.txt file2.txt
+```
 
 5. git commit:
 
 Usage: Commits staged changes to the local repository.
-Example: git commit -m "Add new feature"
+Example: 
+
+```sh
+git commit -m "Add new feature"
+```
 
 6. git push:
 
 Usage: Pushes local commits to a remote repository.
-Example: git push origin master
+Example: 
+
+```sh
+git push origin master
+```
 
 7. git pull:
 
 Usage: Fetches and merges remote changes into the current branch.
-Example: git pull origin master
+Example: 
+
+```sh
+git pull origin master
+```
 
 8. git branch:
 
 Usage: Manages branches in the repository.
 Examples:
+
+```sh
 git branch: Lists all branches
 git branch new-branch: Creates a new branch
 git checkout branch-name: Switches to a different branch
+```
 
 9. git merge:
 
 Usage: Merges one branch into another.
-Example: git merge feature-branch
+Example: 
+
+```sh
+git merge feature-branch
+```
 
 10. git diff:
 
 Usage: Shows differences between files or commits.
 Examples:
+
+```sh
 git diff: Shows unstaged changes
 git diff --staged: Shows staged changes
 git diff master feature-branch: Compares two branches
+```
 
 11. git log:
 
 Usage: View commit history of the repository.
-Example: git log
+Example: 
+
+```sh
+git log
+```
 
 12. git reset:
 
 Usage: Undoes changes to files or commits.
 Examples:
+
+```sh
 git reset HEAD file.txt: Unstages a file
 git reset --hard HEAD~1: Resets to the previous commit
+```
 
 13. git stash:
 
 Usage: Temporarily shelves changes to apply later.
-Example: git stash
+Example: 
+
+```sh
+git stash
+```
 
 14. git remote:
 
 Usage: Manages remote repositories.
 Examples:
+
+```sh
 git remote -v: Lists remote repositories
 git remote add origin https://github.com/user/repo.git: Adds a remote
+```
 
 15. git checkout:
 
 Usage: Switches between branches or restores files from a previous commit.
 Examples:
+
+```sh
 git checkout branch-name: Switches to a branch
 git checkout -- file.txt: Reverts a file to its previous state
+```
 
 
 ## 4 Commom Github commands essential to real-world projects and why.
