@@ -99,9 +99,9 @@ Usage: Manages branches in the repository.
 Examples:
 
 ```sh
-git branch: Lists all branches
-git branch new-branch: Creates a new branch
-git checkout branch-name: Switches to a different branch
+git branch # Lists all branches
+git branch new-branch # Creates a new branch
+git checkout branch-name # Switches to a different branch
 ```
 
 9. git merge:
@@ -119,9 +119,9 @@ Usage: Shows differences between files or commits.
 Examples:
 
 ```sh
-git diff: Shows unstaged changes
-git diff --staged: Shows staged changes
-git diff master feature-branch: Compares two branches
+git diff # Shows unstaged changes
+git diff --staged # Shows staged changes
+git diff master feature-branch # Compares two branches
 ```
 
 11. git log:
@@ -139,8 +139,8 @@ Usage: Undoes changes to files or commits.
 Examples:
 
 ```sh
-git reset HEAD file.txt: Unstages a file
-git reset --hard HEAD~1: Resets to the previous commit
+git reset HEAD file.txt # Unstages a file
+git reset --hard HEAD~1 # Resets to the previous commit
 ```
 
 13. git stash:
@@ -158,8 +158,8 @@ Usage: Manages remote repositories.
 Examples:
 
 ```sh
-git remote -v: Lists remote repositories
-git remote add origin https://github.com/user/repo.git: Adds a remote
+git remote -v # Lists remote repositories
+git remote add origin https://github.com/user/repo.git # Adds a remote
 ```
 
 15. git checkout:
@@ -168,8 +168,8 @@ Usage: Switches between branches or restores files from a previous commit.
 Examples:
 
 ```sh
-git checkout branch-name: Switches to a branch
-git checkout -- file.txt: Reverts a file to its previous state
+git checkout branch-name # Switches to a branch
+git checkout -- file.txt # Reverts a file to its previous state
 ```
 
 
